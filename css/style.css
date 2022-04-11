@@ -417,28 +417,31 @@ fieldset[disabled] .btn-xl.active {
     text-align: center;
 }
 
-.intro-text .intro-lead-in {
-    font-family: "lato";
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 80px;
-    margin-bottom: 45px;
-}
+    .intro-text .intro-lead-in {
+        font-family: "lato";
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 80px;
+        margin-bottom: 45px;
+        
+    }
 
-.intro-text .intro-heading {
-    font-family: 'Droid Serif', serif;
-    text-transform: uppercase;
-    font-size: 70px;
-    line-height: 0px;
-    margin-bottom: 10px
-}
+    .intro-text .intro-heading {
+        font-family: 'Droid Serif', serif;
+        text-transform: uppercase;
+        font-size: 70px;
+        line-height: 0px;
+        margin-bottom: 10px;
+        overflow-wrap: break-word;
+    }
 
-.intro-text .intro-paragraph {
-    font-size: 21px;
-    font-family: "source sans pro", "Droid Serif";
-    margin-top: 70px;
-}
+    .intro-text .intro-paragraph {
+        font-size: 21px;
+        font-family: "source sans pro", "Droid Serif";
+        margin-top: 70px;
+        overflow-wrap: break-word;
+    }
 
 @media (max-width: 450px) {
 
